@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("De todo se sale");
+    printf("Un dia mas en la oficina");
     return 0;
 }
