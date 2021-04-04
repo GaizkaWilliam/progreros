@@ -33,8 +33,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/login.h" />
 		<Unit filename="include/structs.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/login.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/structs.h" />
