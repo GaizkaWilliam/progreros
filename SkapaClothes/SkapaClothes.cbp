@@ -34,18 +34,25 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="include/Registro.h" />
-		<Unit filename="include/structs.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/Registro.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="src/ayuda.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="src/contrasenyaOlvidada.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/login.c">
 			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/producto.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="src/structs.h" />
 		<Extensions>

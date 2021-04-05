@@ -1,5 +1,5 @@
-#ifndef structs_h_
-#define structs_h_
+#ifndef STRUCTS_H_
+#define STRUCTS_H_
 
 typedef struct{
 	int idPrd;

@@ -45,7 +45,7 @@ void registry (Usuario* usuarios, int posicion){
 		sscanf(str, "%s", &contrasenyaComprobar);
 
 
-		if (strncmp(contrasenya, contrasenyaComp) == 0){
+		if (strncmp(contrasenya, contrasenyaComprobar) == 0){
 			strcpy(usuario.contrasenya, contrasenya);
 			flag = 1;
 			*(usuarios + posicion) = usuario;
