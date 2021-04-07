@@ -43,29 +43,35 @@ void volcarProductos(Producto* productos, int tamanyo){//
 
 
 	p5.idPrd = 5;
-	strcpy(p5.nombre, "Nachos Supremos");
-	strcpy(p5.tipo, "Nachos");
-	strcpy(p5.descripcion, "Nachos con frijoles negros, queso mozarella, carne frita y cheddar,rodajas de chile jalapeño");
-	p5.precio = 6.0;
+	strcpy(p5.nombre, "");
+	strcpy(p5.tipo, "");
+	strcpy(p5.descripcion, "");
+	p5.precio = ;
 
 	p6.idPrd = 6;
-	strcpy(p6.nombre, "Kebab Skapa");
-	strcpy(p6.tipo, "Kebab");
-	strcpy(p6.descripcion, "Kebab con carne de ternera o pollo, patatas fritas y con 3 salsas (salsa de yogur , salsa picante y salsa especial skapa)");
-	p6.precio = 4.50;
+	strcpy(p6.nombre, "");
+	strcpy(p6.tipo, "");
+	strcpy(p6.descripcion, "");
+	p6.precio = ;
 
 
 	p7.idPrd = 7;
-	strcpy(p7.nombre, "Patatas cuatro salsas");
-	strcpy(p7.tipo, "Patatas");
-	strcpy(p7.descripcion, "Patatas con queso mozarella,salsa alioli, salsa barbacoa y salsa brava");
-	p7.precio = 6.60;
+	strcpy(p7.nombre, "");
+	strcpy(p7.tipo, "");
+	strcpy(p7.descripcion, "");
+	p7.precio = ;
 
 	p8.idPrd = 8;
-	strcpy(p8.nombre, "Burrito skapa");
-	strcpy(p8.tipo, "Burrito");
-	strcpy(p8.descripcion, "Burrito con carne desmechada o pollo,frijoles negros, tomate, cebolla, aguacate, queso mozarella y champiñones");
-	p8.precio = 8.25;
+	strcpy(p8.nombre, "");
+	strcpy(p8.tipo, "");
+	strcpy(p8.descripcion, "");
+	p8.precio = ;
+
+	p9.ipPrd = 9;
+	strcpy(p9.nombre, "");
+	strcpy(p9.tipo, "");
+	strcpy(p9.descripcion, "");
+	p9.precio = ;
 
 	Producto ps [] = {p1, p2, p3, p4, p5, p6, p7, p8};
 
@@ -95,7 +101,7 @@ void listarProductos (Producto* productos, int tamanyo){
 
 void terminarPedido (Producto* cesta, int tamanyo){
 
-	printf("____________CONFIRMACION DEL PEDIDO_____________\n");
+	printf("____________CONFIRMACIÓN DEL PEDIDO_____________\n");
 	printf("------------------------------------------------\n");
 
 	float total = 0;

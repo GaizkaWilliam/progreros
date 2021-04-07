@@ -6,8 +6,8 @@
 void imprimirArray (Usuario*usuarios, int tamanyo){
 
 	for (int i = 0; i < tamanyo ; i++){
-		printf("NOM: %s", (usuarios+ i)->nombre);
-		printf("PASS: %s", (usuarios+ i)->contrasenya);
+		printf("NOMBRE: %s", (usuarios+ i)->nombre);
+		printf("CONTRASEÑA: %s", (usuarios+ i)->contrasenya);
 	}
 
 }
@@ -38,7 +38,7 @@ int login(Usuario* usuarios) {
 	char name[10];
 	char password[10];
 
-	printf("\n INICIO DE SESION\n");
+	printf("\nINICIO DE SESION\n");
 	printf("______________________________________________________________________________\n");
 
 	printf("USUARIO:  ");
