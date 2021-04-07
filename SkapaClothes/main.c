@@ -11,7 +11,7 @@ int menuInicio (void){
 	printf("______________________________________________________________________________\n");
 	printf("1. Inicio de sesion\n");
 	printf("2. Registrar usuario\n");
-	printf("3. Contraseña olvidada\n");
+	printf("3. Recuperar contraseña\n");
 	printf("4. Salir\n");
 
 	fflush(stdout);
@@ -90,7 +90,7 @@ int main(void){
 				//flag = 1;
 
 				printf("______________________________________________________________\n");
-				printf("-----------------CUENTA INICIADA CON EXITO--------------------\n");
+				printf("-----------------SESION INICIADA CORRECTAMENTE--------------------\n");
 
 				int flag2 = 0;
 
@@ -142,14 +142,14 @@ int main(void){
 						break;
 
 					default:
-						printf("Caracter introducido erroneo");
+						printf("Caracter introducido invalido");
 						break;
 					}
 			}
 
 
 			}else{
-				printf("Acceso denegado, porfavor intentelo de nuevo\n");
+				printf("Acceso denegado, porfavor intentelo otra vez\n");
 
 			}
 
@@ -173,7 +173,7 @@ int main(void){
 			break;
 
 		default:
-			printf("Codigo introducido erroneo\n");
+			printf("Codigo introducido incorrecto\n");
 		}
 
 	}
