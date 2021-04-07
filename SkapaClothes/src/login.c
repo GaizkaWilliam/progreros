@@ -38,7 +38,7 @@ int login(Usuario* usuarios) {
 	char name[10];
 	char password[10];
 
-	printf("\nINICIO DE SESION\n");
+	printf("\n INICIO DE SESION\n");
 	printf("______________________________________________________________________________\n");
 
 	printf("USUARIO:  ");
