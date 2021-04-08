@@ -43,34 +43,34 @@ void volcarProductos(Producto* productos, int tamanyo){//
 
 
 	p5.idPrd = 5;
-	strcpy(p5.nombre, "");
-	strcpy(p5.tipo, "");
-	strcpy(p5.descripcion, "");
+	strcpy(p5.nombre, "Sudadera Nike");
+	strcpy(p5.tipo, "Sudadera");
+	strcpy(p5.descripcion, "Sudadera con capucha, negra, Nike");
 	p5.precio = ;
 
 	p6.idPrd = 6;
-	strcpy(p6.nombre, "");
-	strcpy(p6.tipo, "");
-	strcpy(p6.descripcion, "");
+	strcpy(p6.nombre, "Sudadera Adidas");
+	strcpy(p6.tipo, "Sudadera");
+	strcpy(p6.descripcion, "Sudadera abierta, blanca, Adidas");
 	p6.precio = ;
 
 
 	p7.idPrd = 7;
-	strcpy(p7.nombre, "");
-	strcpy(p7.tipo, "");
-	strcpy(p7.descripcion, "");
+	strcpy(p7.nombre, "Pantalon Corto");
+	strcpy(p7.tipo, "Short");
+	strcpy(p7.descripcion, "Pantalon corto vaquero, azul, Levis");
 	p7.precio = ;
 
 	p8.idPrd = 8;
-	strcpy(p8.nombre, "");
-	strcpy(p8.tipo, "");
-	strcpy(p8.descripcion, "");
+	strcpy(p8.nombre, "Camisa Polo ralph lauren");
+	strcpy(p8.tipo, "Camisa");
+	strcpy(p8.descripcion, "Camisa manga larga, azul, Polo");
 	p8.precio = ;
 
 	p9.ipPrd = 9;
-	strcpy(p9.nombre, "");
-	strcpy(p9.tipo, "");
-	strcpy(p9.descripcion, "");
+	strcpy(p9.nombre, "Chancletas Nike");
+	strcpy(p9.tipo, "Chancletas");
+	strcpy(p9.descripcion, "Chancletas de playa, negras, Nike");
 	p9.precio = ;
 
 	Producto ps [] = {p1, p2, p3, p4, p5, p6, p7, p8};

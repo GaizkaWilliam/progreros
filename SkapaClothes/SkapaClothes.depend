@@ -23,3 +23,27 @@
 
 1617617102 c:\users\ikerg\documents\github\progreros\skapaclothes\include\structs.h
 
+1617889216 source:c:\users\koldo\git\progreros\progreros\skapaclothes\main.c
+	<stdio.h>
+	<stdlib.h>
+	"structs.h"
+
+1617889216 c:\users\koldo\git\progreros\progreros\skapaclothes\include\structs.h
+
+1617889216 source:c:\users\koldo\git\progreros\progreros\skapaclothes\src\contrasenyaolvidada.c
+	<stdio.h>
+	<stdlib.h>
+	"structs.h"
+
+1617889216 c:\users\koldo\git\progreros\progreros\skapaclothes\src\structs.h
+
+1617889216 source:c:\users\koldo\git\progreros\progreros\skapaclothes\src\login.c
+	<stdio.h>
+	<stdlib.h>
+	"structs.h"
+
+1617889216 source:c:\users\koldo\git\progreros\progreros\skapaclothes\src\registro.c
+	<stdio.h>
+	<stdlib.h>
+	"structs.h"
+
