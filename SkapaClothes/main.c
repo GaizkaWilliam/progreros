@@ -41,7 +41,7 @@ int menuPrincipal (void){
 	return num;
 }
 
-/*int menuProductos (Producto* productosStock){
+int menuProductos (Producto* productosStock){
 
 	char str[10];
 	int num;
@@ -60,7 +60,7 @@ int menuPrincipal (void){
 
 	return num;
 }
-*/
+
 
 int main(void){
 
@@ -87,7 +87,7 @@ int main(void){
 			acceso = login(usuarios);
 
 			if (acceso == 1){
-				//flag = 1;
+				flag = 1;
 
 				printf("______________________________________________________________\n");
 				printf("-----------------SESION INICIADA CORRECTAMENTE--------------------\n");
@@ -107,9 +107,9 @@ int main(void){
 					case 1:
 
 						do{
-							//opcion2 = menuProductos(productosStock);
+							opcion2 = menuProductos(productosStock);
 							Producto p = *(productosStock + opcion2);
-							//meterEnCesta(p, cesta, &pos);
+							meterEnCesta(p, cesta, &pos);
 
 						}while (opcion2 != 99);
 
@@ -120,13 +120,13 @@ int main(void){
 						printf("\nMI CESTA\n");
 						printf("______________________________________________________\n");
 
-						//listarProductos(cesta, pos - 1);
+						listarProductos(cesta, pos - 1);
 
 						break;
 
 					case 3:
 
-						//terminarPedido(cesta, pos-1);
+						terminarPedido(cesta, pos-1);
 						flag2 = 1;
 
 						char f = getchar();
@@ -138,7 +138,7 @@ int main(void){
 						break;
 
 					case 5:
-						//ayuda();
+						ayuda();
 						break;
 
 					default:
