@@ -156,7 +156,7 @@ int main(void){
 			break;
 
 		case 2:
-			registry(usuarios, posicion);
+			registro(usuarios, posicion);
 			posicion = posicion + 1;
 			break;
 

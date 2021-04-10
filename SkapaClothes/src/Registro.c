@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "structs.h"
 //
-void registry (Usuario* usuarios, int posicion){
+void registro (Usuario* usuarios, int posicion){
 
 	char str[10];
 	char nombre[10];
