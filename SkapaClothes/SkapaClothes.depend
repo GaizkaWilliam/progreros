@@ -71,7 +71,7 @@
 	<stdlib.h>
 	"structs.h"
 
-1618074544 source:c:\users\iker\documents\github\progreros\skapaclothes\main.c
+1618075538 source:c:\users\iker\documents\github\progreros\skapaclothes\main.c
 	<stdio.h>
 	<stdlib.h>
 	"structs.h"
@@ -91,6 +91,16 @@
 	"structs.h"
 
 1618074535 source:c:\users\iker\documents\github\progreros\skapaclothes\src\registro.c
+	<stdio.h>
+	<stdlib.h>
+	"structs.h"
+
+1617878701 source:c:\users\iker\documents\github\progreros\skapaclothes\src\ayuda.c
+	<stdio.h>
+	<stdlib.h>
+	"structs.h"
+
+1618075538 source:c:\users\iker\documents\github\progreros\skapaclothes\src\producto.c
 	<stdio.h>
 	<stdlib.h>
 	"structs.h"

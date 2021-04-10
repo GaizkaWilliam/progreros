@@ -67,11 +67,7 @@ void volcarProductos(Producto* productos, int tamanyo){
 	strcpy(p8.descripcion, "Camisa manga larga, azul, Polo");
 	p8.precio = 56.90;
 
-	p9.ipPrd = 9;
-	strcpy(p9.nombre, "Chancletas Nike");
-	strcpy(p9.tipo, "Chancletas");
-	strcpy(p9.descripcion, "Chancletas de playa, negras, Nike");
-	p9.precio = 19.99 ;
+
 
 	Producto ps [] = {p1, p2, p3, p4, p5, p6, p7, p8};
 
