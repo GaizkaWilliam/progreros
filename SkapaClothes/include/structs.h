@@ -1,5 +1,6 @@
-#ifndef structs_h_
-#define structs_h_
+#ifndef STRUCTS_H_INCLUDED
+#define STRUCTS_H_INCLUDED
+
 
 typedef struct{
 	int idPrd;
@@ -46,9 +47,8 @@ void listarProductos (Producto *productos, int tamanyo);
 void meterEnCesta (Producto p, Producto* cesta, int *posicion);
 void terminarPedido (Producto* cesta, int tamanyo);
 
-//help//
-void help (void);
+void ayuda(void);
 
 
 
-#endif /* STRUCTS_H_ */
+#endif // STRUCTS_H_INCLUDED
