@@ -97,7 +97,7 @@ void listarProductos (Producto* productos, int tamanyo){
 
 void terminarPedido (Producto* cesta, int tamanyo){
 
-	printf("____________CONFIRMACIÓN DEL PEDIDO_____________\n");
+	printf("____________CONFIRMACION DEL PEDIDO_____________\n");
 	printf("------------------------------------------------\n");
 
 	float total = 0;
@@ -110,6 +110,8 @@ void terminarPedido (Producto* cesta, int tamanyo){
 
 	printf("_________________________________________________\n");
 	printf("TOTAL:                               %f", total);
+    printf("\n");
+	printf("\n_______________PEDIDO REALIZADO________________\n");
 
 	fflush(stdout);
 }
