@@ -71,12 +71,12 @@
 	<stdlib.h>
 	"structs.h"
 
-1618075538 source:c:\users\iker\documents\github\progreros\skapaclothes\main.c
+1618217474 source:c:\users\iker\documents\github\progreros\skapaclothes\main.c
 	<stdio.h>
 	<stdlib.h>
 	"structs.h"
 
-1618074398 c:\users\iker\documents\github\progreros\skapaclothes\include\structs.h
+1618217440 c:\users\iker\documents\github\progreros\skapaclothes\include\structs.h
 
 1617878701 source:c:\users\iker\documents\github\progreros\skapaclothes\src\contrasenyaolvidada.c
 	<stdio.h>
@@ -100,7 +100,7 @@
 	<stdlib.h>
 	"structs.h"
 
-1618151378 source:c:\users\iker\documents\github\progreros\skapaclothes\src\producto.c
+1618151468 source:c:\users\iker\documents\github\progreros\skapaclothes\src\producto.c
 	<stdio.h>
 	<stdlib.h>
 	"structs.h"

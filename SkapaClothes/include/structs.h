@@ -36,10 +36,7 @@ int comprobarUsuario (char name [10], char pass [10], Usuario* usuarios, int tam
 int login(Usuario* usuarios);
 
 //registry//
-void registry (Usuario* usuarios, int posicion);
-
-//contransenyaOlvidada
-void contrasenyaOlvidada(Usuario* usuarios);
+void registro (Usuario* usuarios, int posicion);
 
 //funcionesProductos//
 void volcarProductos(Producto *productos, int tamanyo);

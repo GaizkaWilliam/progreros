@@ -11,8 +11,7 @@ int menuInicio (void){
 	printf("______________________________________________________________________________\n");
 	printf("1. Inicio de sesion\n");
 	printf("2. Registrar usuario\n");
-	printf("3. Recuperar contraseña\n");
-	printf("4. Salir\n");
+	printf("3. Salir\n");
 
 	fflush(stdout);
 	fgets(str, 10, stdin);
@@ -160,12 +159,7 @@ int main(void){
 			posicion = posicion + 1;
 			break;
 
-
 		case 3:
-			contrasenyaOlvidada(usuarios);
-			break;
-
-		case 4:
 			printf("____________________________________________________________________\n");
 			printf("----------------------PROGRAMA FINALIZADO---------------------------\n");
 			flag = 1;
